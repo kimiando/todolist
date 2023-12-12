@@ -40,7 +40,7 @@ export const TodoWrapper = () => {
   };
 
   return (
-    <div className='TodoWrapper'>
+    <div className='TodoWrapperCard'>
       <h1>To Do List</h1>
       <TodoForm addTodo={addTodo} />
       {todos.map((todo, index) => (
